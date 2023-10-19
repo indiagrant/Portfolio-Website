@@ -30,10 +30,10 @@ body {
 .nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Anonymous Pro", monospace;
   position: relative;
-  transition: color 0.2s;
+  transition: color 0.3s;
 }
 
 .nav li a:hover {
@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-  width: 220px;
+  width: 200px;
 }
 
 .header-text {
@@ -127,17 +127,22 @@ body {
   margin-bottom: 20px;
 }
 
-.layer a {
+#work-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   margin-top: 20px;
   color: #e8486f;
   text-decoration: none;
   font-size: 15px;
   line-height: 30px;
   background: white;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
   text-align: center;
+  margin-right: 10px;
+}
+
+#work-icon:hover {
+  opacity: 0.8;
 }
 
 .work:hover img {
@@ -195,6 +200,11 @@ body {
 
 .cv-button {
   margin-top: 35px;
+  transition: opacity 0.15s;
+}
+
+.cv-button:hover {
+  opacity: 0.9;
 }
 
 .btn {
@@ -207,13 +217,15 @@ body {
   background-color: #e8486f;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 .btn .btn2 {
   display: inline-block;
-}
-
-.btn :hover {
 }
 
 .contact-right {
